@@ -1,1 +1,7 @@
+<!-- Has the HTML for the selector app-todos of the Todo Component {Whenever the app-todo component is called using its selector then this HTML is called}-->
+
 <p>todos works!</p>
+
+<ul *ngFor="let todo of todos">
+    <li>{{todo.sno}} - {{todo.title}} - {{todo.desc}}</li>
+</ul>
